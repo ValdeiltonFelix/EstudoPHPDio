@@ -1,0 +1,15 @@
+{
+    "name": "valdeilton/estudo-php-dio",
+    "description": "Estudo de php, Implementando um api de ceps",
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "Valdeilton\\search\\":"src/"
+        }
+    }
+}
